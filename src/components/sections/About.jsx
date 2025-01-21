@@ -44,7 +44,7 @@ const About = ({ isVisible }) => {
               {skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center p-4 rounded-lg bg-gray-100 shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
+                  className="flex flex-col items-center justify-center p-4 rounded-lg bg-gray-100 shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
                 >
                   <div key={index} className="flex items-center space-x-2">
                     {skill.icon}
