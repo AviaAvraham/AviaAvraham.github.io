@@ -7,6 +7,7 @@ import Education from './sections/Education';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 import BackToTop from './BackToTop';
+import MilitaryService from './sections/MilitaryService';
 
 
 {/*
@@ -65,6 +66,7 @@ const Portfolio = () => {
         <Experience isVisible={isVisible.experience} />
         <Education isVisible={isVisible.education} />
         <Projects isVisible={isVisible.projects} />
+        <MilitaryService isVisible={isVisible.military_service} />
         <Contact isVisible={isVisible.contact} />
       </main>
 

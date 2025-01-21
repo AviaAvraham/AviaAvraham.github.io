@@ -10,6 +10,7 @@ const Education = ({ isVisible }) => (
           title="Computer Science Student / Technion"
           date="October 2021 – March 2025 (Expected graduation)"
         >
+          <h4 className="text-gray-600 font-bold mb-2">Notable Coursework</h4>
           <ul className="list-disc list-inside space-y-2 text-gray-600">
             <li>Network Security</li>
             <li>Introduction to Machine Learning</li>
