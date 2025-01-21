@@ -2,6 +2,12 @@ import React from 'react';
 import Card from '../Card';
 import ProjectCard from '../ProjectCard';
 
+/*
+Consider breaking it down to 2: Leadership experience and personal projects
+Can make a ProjectGroup component for each project group
+Than maybe place the leadership experience after the usual experience? and Projects as usual after education? not sure yet
+*/
+
 const Projects = ({ isVisible }) => (
   <section id="projects">
     <Card title="Projects" id="projects" isVisible={isVisible}>

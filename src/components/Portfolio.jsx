@@ -41,7 +41,7 @@ const Portfolio = () => {
           }));
         });
       },
-      { threshold: 0.2 }
+      { threshold: 0.01 }
     );
 
     document.querySelectorAll('section').forEach((section) => {
