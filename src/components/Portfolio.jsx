@@ -6,6 +6,7 @@ import Experience from './sections/Experience';
 import Education from './sections/Education';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
+import BackToTop from './BackToTop';
 
 
 {/*
@@ -68,6 +69,7 @@ const Portfolio = () => {
       </main>
 
 	  <Footer />
+	  <BackToTop />
     </div>
   );
 };
