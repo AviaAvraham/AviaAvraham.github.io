@@ -39,21 +39,20 @@ const About = ({ isVisible }) => {
 
           {/* Skills Section */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-800">Skills</h3>
-            <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">Skills</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
               {skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center justify-center p-4 rounded-lg bg-gray-100 shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
+                  className="flex flex-col items-center text-center p-4 rounded-lg"
                 >
-                  <div key={index} className="flex items-center space-x-2">
-                    {skill.icon}
-                    <span className="text-gray-700">{skill.name}</span>
-                  </div>
+                  <div className="text-4xl mb-3">{skill.icon}</div>
+                  <span className="text-gray-700 font-medium">{skill.name}</span>
                 </div>
               ))}
             </div>
           </div>
+
         </div>
       </Card>
     </section>
