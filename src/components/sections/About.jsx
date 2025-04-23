@@ -1,9 +1,9 @@
 import React from 'react';
 import Card from '../Card';
 import ReactMarkdown from "react-markdown";
-import { FaPython, FaCode, FaLaptopCode, FaLinux, FaCogs } from 'react-icons/fa';
+import { FaPython, FaCode, FaLaptopCode, FaCogs } from 'react-icons/fa';
 import { FaMagnifyingGlass } from "react-icons/fa6";
-import { FcAndroidOs } from "react-icons/fc";
+import { FcAndroidOs, FcLinux } from "react-icons/fc";
 import { IoMdPeople, IoMdRocket } from 'react-icons/io';
 
 
@@ -16,7 +16,7 @@ const About = ({ isVisible }) => {
     { name: "Problem-Solving", icon: <IoMdRocket className="text-orange-600" /> },
     { name: "Team Collaboration", icon: <IoMdPeople className="text-yellow-600" /> },
     { name: "Self-Learning", icon: <FaMagnifyingGlass className="text-red-600" /> },
-    { name: "Linux & Windows Development", icon: <FaLinux className="text-gray-900" /> },
+    { name: "Linux & Windows Development", icon: <FcLinux className="text-blue-900" /> },
     { name: "Object Oriented Design", icon: <FaCogs className="text-gray-600" /> },
   ];
   
